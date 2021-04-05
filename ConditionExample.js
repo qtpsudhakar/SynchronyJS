@@ -41,3 +41,34 @@ console.log(x*y);
 
 // or ||
 //and &&
+
+
+//find capital of state
+let statecode = "tn"
+
+if(statecode=="ts"){
+    console.log("hyderabad");    
+}else if(statecode=="tn"){
+    console.log("chennai");
+}else if(statecode=="ka"){
+    console.log("bangalore");    
+}else{
+    console.log("State code not found");    
+}
+
+//switch case
+
+switch (statecode) {
+    case "ts":
+        console.log("hyderabad");        
+        break;
+    case "tn":
+        console.log("chennai");
+        break;
+    case "ka":
+        console.log("bangalore");
+        break;
+    default:
+        console.log("statecode not found");        
+        break;
+}
