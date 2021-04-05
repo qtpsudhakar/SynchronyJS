@@ -37,3 +37,7 @@ if(x>y){
 
 console.log(new Date());
 
+console.log(x*y);
+
+// or ||
+//and &&
