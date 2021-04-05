@@ -57,8 +57,8 @@ if(statecode=="ts"){
 }
 
 //switch case
-
-switch (statecode) {
+ statecode = "TN"
+switch (statecode.toLowerCase()) {
     case "ts":
         console.log("hyderabad");        
         break;
