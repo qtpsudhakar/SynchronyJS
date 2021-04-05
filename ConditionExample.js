@@ -21,3 +21,19 @@ else{ //else block
 // === : compare data and type
 // < : less than
 // > : greater than
+
+//find which variable has bigger value
+
+let x = 20;
+let y = 20;
+
+if(x>y){
+    console.log("x is greater");  
+}else if(y>x){
+    console.log("y is greater");    
+}else{
+    console.log("both are equal");    
+}
+
+console.log(new Date());
+
