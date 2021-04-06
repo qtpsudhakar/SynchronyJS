@@ -14,3 +14,8 @@ do{
     console.log("execute something"); 
     n++;
 }while(n<10)
+
+//find factors of a given number : 20 : 1,2,4,5,10,20
+
+//find factorial of a given number : 5 : 5*4*3*2*1
+
