@@ -18,7 +18,7 @@ data.forEach((v)=>console.log(v));
 // this is to simplify creating of the function which contains single line
 
 function calculator(x,y,act) {
-    return act(x,y);
+    return act(x,y)
 }
 
 console.log(calculator(2,3,function(a,b){
@@ -29,3 +29,4 @@ console.log(calculator(20,30,(a,b)=>{return a+b}));
 console.log(calculator(20,30,(a,b)=>a+b));
 console.log(calculator(20,30,(a,b)=>a*b));
 console.log(calculator(20,30,(a,b)=>a/b));
+
