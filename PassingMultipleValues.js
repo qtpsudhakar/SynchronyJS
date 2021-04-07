@@ -30,3 +30,5 @@ function demoAddAll2(...n) { //rest parameter : accepts any number of values
 console.log(demoAddAll2(2,4,1,5,6));
 
 console.log(demoAddAll2(...arr)); //spread parameter
+
+//write a function to add all numbers between given range
