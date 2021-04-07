@@ -10,7 +10,6 @@ function findFactorial(n){
 let r = findFactorial(10)
 console.log("the factorial value is:"+r);
 
-
 // ord = CreateOrder()
 
 // EditOrder(ord)
