@@ -7,7 +7,7 @@ let tool = {
         console.log(this.name+" is started");        
     },
     stop:function(){
-        console.log(this.name+" is stopped");        
+        console.log(this.name+" is stopped");   
     }
 }
 
