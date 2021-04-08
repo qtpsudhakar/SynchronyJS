@@ -7,7 +7,7 @@ console.log(isValueExist(states, "ts"));
 
 function isValueExist(lstData, exp) {
 
-    let isValueFound=false; //flagging
+    let isValueFound = false; //flagging
     for (let i = 0; i < lstData.length; i++) {
         if (lstData[i] == exp) {
             isValueFound = true;
